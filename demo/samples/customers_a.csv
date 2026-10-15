@@ -1,0 +1,5 @@
+customer_id,name,email,status,city
+0001, Ana Torres , ana@example.com , active , Córdoba
+0002,Bruno Silva,bruno@example.com,inactive,Monte Cristo
+0003, Carla Ruiz ,carla@example.com,active, Buenos Aires 
+0004,"Díaz, Diego",diego@example.com,active,Rosario

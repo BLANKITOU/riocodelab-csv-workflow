@@ -1,0 +1,4 @@
+source_file,source_line,customer_id,name,email,status,city,reason
+customers_a.csv,3,0002,Bruno Silva,bruno@example.com,inactive,Monte Cristo,filtered_status
+customers_b.csv,2, 0003 ,Carla Ruiz duplicada,carla.new@example.com,active,Buenos Aires,duplicate_customer_id
+customers_b.csv,5, ,Registro sin ID,missing@example.com,active,Córdoba,missing_customer_id

@@ -1,0 +1,5 @@
+customer_id,name,email,status,city
+ 0003 ,Carla Ruiz duplicada,carla.new@example.com,active,Buenos Aires
+0005, Eva López , eva@example.com ,active,Monte Cristo
+1,Fernando Paz,fernando@example.com,active,Mendoza
+ ,Registro sin ID,missing@example.com,active,Córdoba

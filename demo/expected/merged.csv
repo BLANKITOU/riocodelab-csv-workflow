@@ -1,0 +1,6 @@
+customer_id,name,email,city
+0001,Ana Torres,ana@example.com,Córdoba
+0003,Carla Ruiz,carla@example.com,Buenos Aires
+0004,"Díaz, Diego",diego@example.com,Rosario
+0005,Eva López,eva@example.com,Monte Cristo
+1,Fernando Paz,fernando@example.com,Mendoza

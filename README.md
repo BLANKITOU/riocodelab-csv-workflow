@@ -2,6 +2,10 @@
 
 Una muestra de código revisable y una propuesta de servicio para limpiar, filtrar y combinar archivos CSV con reglas explícitas. La muestra funciona localmente con la biblioteca estándar de Python, sin cuentas, red ni API de pago.
 
+## Minicurso gratuito y servicios
+
+Aprendé a definir reglas, practicar con datos ficticios y revisar resultados en [RioCodeLab · Datos en orden con IA](https://riocodelab-ia-practica.basicfield6.chatgpt.site), un minicurso original gratuito de 6 lecciones. La página también detalla las propuestas de adaptación de flujos CSV y de una planilla CRM, a US$125 cada una, con alcance sujeto a revisión antes de comenzar.
+
 ## Servicio propuesto: US$125
 
 Adaptación de un flujo de línea de comandos para **hasta 5 archivos CSV del mismo esquema**, con un máximo conjunto de **25 MB y 100.000 filas**, y **hasta 5 reglas simples** acordadas antes de comenzar. Por ejemplo: quitar espacios exteriores, filtrar un estado, detectar claves vacías, eliminar duplicados por una clave exacta o seleccionar columnas.

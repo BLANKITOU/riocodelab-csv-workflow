@@ -8,7 +8,7 @@ Adaptación de un flujo de línea de comandos para **hasta 5 archivos CSV del mi
 
 La entrega propuesta incluye el código Python adaptado, instrucciones para ejecutarlo, un ejemplo con datos ficticios y comprobaciones de las reglas acordadas. El plazo propuesto es de **3 días desde la recepción de los insumos necesarios y la confirmación del alcance**. Incluye **1 revisión dentro de ese alcance**; los cambios de formato, reglas o funcionalidades se acuerdan por separado.
 
-El precio y los límites son una propuesta de alcance, sujetos a revisar el formato y la viabilidad del trabajo. **La capacidad de procesar el volumen comercial se comprobará para el encargo antes de comprometer la entrega**. La muestra pequeña de este repositorio no acredita rendimiento con 100.000 filas ni 25 MB.
+El precio y los límites son una propuesta de alcance, sujetos a revisar el formato y la viabilidad del trabajo. **El formato y el volumen del encargo se comprobarán antes de comprometer la entrega**.
 
 No incluye interpretación de Excel, uniones complejas, coincidencias aproximadas, corrección manual de datos, integraciones con servicios externos ni una aplicación alojada.
 
@@ -40,6 +40,8 @@ python -m unittest -v
 ```
 
 Las **7 pruebas** de la muestra pasaron con Python 3.12.14 en Windows. Cubren duplicados, claves con ceros iniciales, filtros, formato de entrada, protección de archivos de entrada y resultados de referencia. No constituyen una prueba de carga ni una verificación en otros sistemas operativos.
+
+En una [comprobación de volumen separada](verification/volume-check.json), el mismo código procesó 5 archivos sintéticos con 100.000 filas y 24.500.175 bytes de entrada: 100.000 filas aceptadas, 0 rechazadas y todos los identificadores conservados en orden. La ejecución tardó 0,984 segundos en el equipo de prueba. Fue una sola corrida con el esquema fijo y registros ASCII simples; no garantiza ese tiempo en otros equipos o datos, ni establece un máximo seguro de memoria.
 
 La muestra exige encabezados fijos `customer_id,name,email,status,city`, CSV con coma y texto UTF-8. Carga los registros en memoria antes de escribir. No valida direcciones de correo ni interpreta formatos desconocidos. Los originales no se modifican; las rutas de salida indicadas se pueden sobrescribir. Un fallo de disco puede dejar una salida incompleta. La [documentación técnica](demo/README.md) explica estas condiciones y las reglas completas.
 

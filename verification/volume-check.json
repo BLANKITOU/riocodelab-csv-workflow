@@ -1,0 +1,105 @@
+{
+  "status": "passed_one_synthetic_run",
+  "checked_at_utc": "2026-10-15T05:07:51.419906+00:00",
+  "script": "products/csv-workflow-demo/clean_csv.py",
+  "script_sha256": "dcf2368dbc95bc67dd623737f096c91fea4468e0539f02a79e668a9ee05920d8",
+  "environment": {
+    "python_version": "3.12.14",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "architecture_bits": 64,
+    "logical_cpu_count": 8,
+    "timing_clock": "time.monotonic"
+  },
+  "dataset": {
+    "synthetic_only": true,
+    "files": [
+      {
+        "file": "synthetic-1.csv",
+        "rows": 20000,
+        "bytes": 4900035
+      },
+      {
+        "file": "synthetic-2.csv",
+        "rows": 20000,
+        "bytes": 4900035
+      },
+      {
+        "file": "synthetic-3.csv",
+        "rows": 20000,
+        "bytes": 4900035
+      },
+      {
+        "file": "synthetic-4.csv",
+        "rows": 20000,
+        "bytes": 4900035
+      },
+      {
+        "file": "synthetic-5.csv",
+        "rows": 20000,
+        "bytes": 4900035
+      }
+    ],
+    "file_count": 5,
+    "total_rows": 100000,
+    "total_input_bytes": 24500175,
+    "decimal_megabytes": 24.500175,
+    "row_bytes_including_lf": 245,
+    "header": [
+      "customer_id",
+      "name",
+      "email",
+      "status",
+      "city"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "delimiter": ",",
+    "line_ending": "LF",
+    "unique_text_ids": true,
+    "status": "active for every row",
+    "content": "ASCII synthetic names, invalid-example email domain, padded synthetic city; fixed-width records"
+  },
+  "execution": {
+    "method": "Unmodified CLI in a Python subprocess",
+    "return_code": 0,
+    "stdout": "Read: 100000 | Accepted: 100000 | Rejected: 0",
+    "stderr": "",
+    "elapsed_seconds": 0.984,
+    "elapsed_includes": "Subprocess launch, reading five inputs, processing and writing both output files; excludes dataset generation and independent output validation"
+  },
+  "verification": {
+    "accepted_rows_counted_independently": 100000,
+    "rejected_rows_counted_independently": 0,
+    "merged_header": [
+      "customer_id",
+      "name",
+      "email",
+      "city"
+    ],
+    "rejected_header": [
+      "source_file",
+      "source_line",
+      "customer_id",
+      "name",
+      "email",
+      "status",
+      "city",
+      "reason"
+    ],
+    "all_ids_preserved_exactly_in_order": true,
+    "first_id": "00000000",
+    "last_id": "00099999",
+    "merged_bytes": 23800028,
+    "rejected_bytes": 66,
+    "script_unchanged": true,
+    "all_names_and_emails_preserved_and_city_prefixes_checked": true
+  },
+  "limits": [
+    "One synthetic run on this environment; no timing or throughput guarantee for another computer or dataset.",
+    "Only the fixed documented schema and these simple unquoted ASCII records were exercised at this volume.",
+    "This volume run used unique active rows; rejection rules are covered separately by the existing tests.",
+    "Records are loaded in memory; peak memory was not measured and this run does not establish a safe maximum size.",
+    "No real data, network, account, paid service or sample-file modification was used."
+  ],
+  "temporary_files_removed": true
+}

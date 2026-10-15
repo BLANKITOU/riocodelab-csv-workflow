@@ -49,9 +49,25 @@ En una [comprobación de volumen separada](verification/volume-check.json), el m
 
 La muestra exige encabezados fijos `customer_id,name,email,status,city`, CSV con coma y texto UTF-8. Carga los registros en memoria antes de escribir. No valida direcciones de correo ni interpreta formatos desconocidos. Los originales no se modifican; las rutas de salida indicadas se pueden sobrescribir. Un fallo de disco puede dejar una salida incompleta. La [documentación técnica](demo/README.md) explica estas condiciones y las reglas completas.
 
+## También disponible: una landing page para tu negocio
+
+RioCodeLab ofrece [landing pages estáticas con HTML, CSS y JavaScript](https://riocodelab-ia-practica.basicfield6.chatgpt.site/#service-landing), con código fuente e instrucciones de uso:
+
+| Paquete | Precio propuesto | Alcance | Plazo propuesto | Revisiones |
+| --- | --- | --- | --- | --- |
+| Esencial | US$50 | 1 página, hasta 3 secciones | 3 días | 1 |
+| Negocio | US$125 | 1 página, hasta 5 secciones | 4 días | 2 |
+| Completa | US$200 | 1 página, hasta 7 secciones | 5 días | 2 |
+
+Encabezado y pie se cuentan aparte de las secciones. Los plazos comienzan al recibir los textos finales, la marca y los recursos autorizados, y confirmar el alcance. Las revisiones cubren cambios dentro de ese alcance.
+
+Podés [ver Luma Espacios, una demo original de marca ficticia](https://riocodelab-ia-practica.basicfield6.chatgpt.site/demos/luma/index.html), antes de consultar. Es una muestra personal creada con asistencia de IA, revisada y probada; no representa un cliente ni resultados comerciales.
+
+La entrega propuesta es un ZIP con una página adaptable a móvil y su código fuente. No incluye dominio, hosting, publicación, backend, formularios reales, pagos, integraciones, mantenimiento ni garantías de posicionamiento o ventas. Una [consulta privada](https://riocodelab-ia-practica.basicfield6.chatgpt.site/#consulta) permite revisar la viabilidad y acordar el alcance antes de contratar.
+
 ## Consultar un posible encargo
 
-Podés enviar una [consulta privada desde la web de RioCodeLab, sin crear una cuenta](https://riocodelab-ia-practica.basicfield6.chatgpt.site/#consulta). Elegí CSV o planilla comercial y describí el resultado esperado con información genérica. Tu correo se usará para responder esa consulta, con asistencia de IA; no adjuntes datos de clientes ni credenciales. El formulario no realiza cobros ni inicia un contrato.
+Podés enviar una [consulta privada desde la web de RioCodeLab, sin crear una cuenta](https://riocodelab-ia-practica.basicfield6.chatgpt.site/#consulta). Elegí CSV, planilla comercial o landing page y describí el resultado esperado con información genérica. Tu correo se usará para responder esa consulta, con asistencia de IA; no adjuntes datos de clientes ni credenciales. El formulario no realiza cobros ni inicia un contrato.
 
 Si preferís una consulta pública en GitHub:
 

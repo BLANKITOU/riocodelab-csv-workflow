@@ -51,6 +51,10 @@ La muestra exige encabezados fijos `customer_id,name,email,status,city`, CSV con
 
 ## Consultar un posible encargo
 
+Podés enviar una [consulta privada desde la web de RioCodeLab, sin crear una cuenta](https://riocodelab-ia-practica.basicfield6.chatgpt.site/#consulta). Elegí CSV o planilla comercial y describí el resultado esperado con información genérica. Tu correo se usará para responder esa consulta, con asistencia de IA; no adjuntes datos de clientes ni credenciales. El formulario no realiza cobros ni inicia un contrato.
+
+Si preferís una consulta pública en GitHub:
+
 Abrí una [consulta mediante la plantilla de issue](https://github.com/BLANKITOU/riocodelab-csv-workflow/issues/new?template=consulta.md) con una descripción genérica del problema, las columnas previstas, el volumen aproximado y las reglas deseadas. Usá únicamente datos ficticios.
 
 **Los issues son públicos. No adjuntes archivos ni incluyas información privada, datos de clientes, credenciales o datos de contacto.** La consulta solo sirve para evaluar si el trabajo encaja. El alcance, los insumos, el canal adecuado para compartirlos y la contratación se acuerdan antes de comenzar.
